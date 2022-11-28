@@ -1,0 +1,59 @@
+{
+    "modName": "JustNo",
+    "displayName": "JustNo Sit / Drink",
+    "minMcmVersion": 1,
+    "pluginRequirements": [
+        "JustNo.esp"
+    ],
+    "content": [
+        {
+            "text": "Settings",
+            "type": "section"
+        },
+        {
+            "id": "fNoSit:Main",
+            "text": "No Sit enabled",
+            "type": "switcher",
+            "help": "Turn on to enable.  Turn off to disable.  Complete and in-depth full-colour tutorial for this setting is available online.",
+            "groupControl": 1,
+            "valueOptions": {
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "id": "fNoDrink:Main",
+            "text": "No Drink enabled",
+            "type": "switcher",
+            "help": "Thirsty?  This setting may be the problem.",
+            "groupControl": 1,
+            "valueOptions": {
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "type": "spacer"
+        },
+        {
+            "text": "Hotkeys",
+            "type": "section"
+        },
+        {
+            "id": "JustNoToggler",
+            "text": "Toggle Both",
+            "type": "hotkey",
+            "help": "If either is disabled, both will be enabled.  Otherwise, toggles both."
+        },
+        {
+            "id": "NoDrinkToggler",
+            "text": "Toggle No Drink",
+            "type": "hotkey",
+            "help": "Toggles No Drink."
+        },
+        {
+            "id": "NoSitToggler",
+            "text": "Toggle No Sit",
+            "type": "hotkey",
+            "help": "Toggles No Sit."
+        }
+    ]
+}

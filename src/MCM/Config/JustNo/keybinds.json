@@ -1,0 +1,33 @@
+{
+    "modName": "JustNo",
+    "keybinds": [
+        {
+            "id": "JustNoToggler",
+            "desc": "Toggle JustNo Sit & Drink",
+            "help": "If either is disabled, both will be enabled.",
+            "action": {
+                "type": "CallFunction",
+                "form": "JustNo.esp|F99",
+                "function": "Toggle"
+            }
+        },
+        {
+            "id": "NoDrinkToggler",
+            "desc": "Toggles whether JustNo is enabled or not.",
+            "action": {
+                "type": "CallFunction",
+                "form": "JustNo.esp|F99",
+                "function": "ToggleDrink"
+            }
+        },
+        {
+            "id": "NoSitToggler",
+            "desc": "Toggles whether JustNo is enabled or not.",
+            "action": {
+                "type": "CallFunction",
+                "form": "JustNo.esp|F99",
+                "function": "ToggleSit"
+            }
+        }
+    ]
+}
